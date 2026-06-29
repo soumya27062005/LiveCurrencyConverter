@@ -1,0 +1,210 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Fjalla One', sans-serif;
+}
+
+
+/* PAGE BACKGROUND */
+body{
+
+    background-color: #519872;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 100vh;
+}
+
+
+
+/* MAIN BOX */
+.main-container{
+
+    background-color: #a4b494;
+
+    padding: 30px;
+
+    width: 360px;
+
+    border-radius: 18px;
+
+    box-shadow: 0 12px 30px rgba(0,0,0,0.25);
+}
+
+
+
+/* HEADING */
+h1{
+
+    text-align: center;
+
+    margin-bottom: 25px;
+
+    color: #1f3d2b;
+
+    font-size: 28px;
+}
+
+
+
+/* LABEL TEXT */
+form p{
+
+    margin-bottom: 5px;
+
+    color: #1f3d2b;
+
+    font-size: 15px;
+}
+
+
+
+/* INPUT */
+input{
+
+    width: 100%;
+
+    padding: 12px;
+
+    border-radius: 10px;
+
+    border: none;
+
+    outline: none;
+
+    margin-bottom: 20px;
+
+    font-size: 16px;
+
+    background-color: #dce5d6;
+
+}
+
+
+
+/* DROPDOWN ROW */
+.dropdowns{
+
+    display: flex;
+
+    justify-content: space-between;
+
+    align-items: center;
+
+    margin-bottom: 20px;
+}
+
+
+
+/* FROM AND TO */
+.from, .to{
+
+    width: 40%;
+}
+
+
+
+/* SELECT BOX */
+.select-container{
+
+    display: flex;
+
+    align-items: center;
+
+    background-color: #dce5d6;
+
+    padding: 6px;
+
+    border-radius: 10px;
+
+    margin-top: 5px;
+}
+
+
+
+/* FLAG */
+.select-container img{
+
+    width: 30px;
+
+    margin-right: 8px;
+}
+
+
+
+/* SELECT */
+select{
+
+    border: none;
+
+    outline: none;
+
+    background: transparent;
+
+    font-size: 15px;
+
+    width: 100%;
+
+    cursor: pointer;
+}
+
+
+
+/* ARROW ICON */
+.dropdowns i{
+
+    font-size: 18px;
+
+    margin-top: 20px;
+
+    color: #1f3d2b;
+}
+
+
+
+/* MESSAGE */
+.msg{
+
+    text-align: center;
+
+    margin-bottom: 20px;
+
+    color: #1f3d2b;
+
+    font-size: 16px;
+}
+
+
+
+/* BUTTON */
+button{
+
+    width: 100%;
+
+    padding: 13px;
+
+    border-radius: 12px;
+
+    border: none;
+
+    font-size: 16px;
+
+    cursor: pointer;
+
+    background-color: #519872;
+
+    color: white;
+
+    transition: 0.3s;
+}
+
+
+
+button:hover{
+
+    background-color: #3d7557;
+
+}
